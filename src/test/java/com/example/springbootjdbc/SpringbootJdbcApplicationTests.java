@@ -10,15 +10,16 @@ import java.sql.Connection;
 @SpringBootTest
 class SpringbootJdbcApplicationTests {
     @Autowired
-    DataSource dataSource;
+   DataSource dataSource;
 
     @Test
     void contextLoads() {
         try{
            Connection connection = dataSource.getConnection();
            System.out.println("connection:"+connection);
+            System.out.println("数据源类型:"+dataSource.getClass());
         }catch(Exception e){
-
+            e.printStackTrace();
         }
 
     }
