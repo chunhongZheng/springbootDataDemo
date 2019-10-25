@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp1n2925gk0l5902oo.mysql.rds.aliyuncs.com:3306/eservice_uat?useUnicode=true&characterEncoding=UTF-8
+    name: eservice_uat
+    username: eservice_uat
+    password: eservice_uat123

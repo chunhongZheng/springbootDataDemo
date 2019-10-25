@@ -1,0 +1,1 @@
+ Spring Boot 2.0.4 默认使用 com.zaxxer.hikari.HikariDataSource 数据源，而以前版本，如 Spring Boot 1.5 默认使用 org.apache.tomcat.jdbc.pool.DataSource 作为数据源。
